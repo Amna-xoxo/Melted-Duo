@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">    
+    <title>Home</title>
+
+
+</head>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<body>
+    <div class="container">
+    <div class="menu">
+    <nav>
+        <img src="Screenshot_2026-07-29_11.59.49_AM-removebg-preview.png">
+        <center>
+        <table>
+            <tr>
+                <th>
+                    <a href="index.html">Home</a>
+                </th>
+
+                <th>
+                    <a href="about.html">About</a>
+                </th>
+
+                <th>
+                    <a href="contact.html">Contact</a> 
+                </th>
+         
+            </tr>
+        </table>
+        </center>
+                   
+    </nav>
+
+    </div>
+    </div>
+
+
+    <div class="banner">
+        <img src="ChatGPT Image Jul 19, 2026, 12_26_14 PM.png" alt="">
+    </div>
+
+
+
+
+    <div class="food">
+        <center>
+        <img src="ChatGPT Image Aug 7, 2026, 02_33_46 PM.png" alt="">
+        </center>
+    </div>
+
+
+
+
+
+
+    <section class="review-section">
+        <hr><hr>
+        <h1>REVIEWs</h1>
+
+
+        <!-- SWIPER -->
+        <div class="swiper reviewsSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- SARAH -->
+                <div class="swiper-slide">
+                    <div class="reviewcard">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <h1>Sarah Williams</h1>
+
+                        <p>
+                            "Absolutely incredible! The burgers were juicy,
+                            the fries were perfectly crispy, and the staff were
+                            so welcoming. Definitely one of the best places I've
+                            eaten. I'll be coming back with my friends!"
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- AHMED -->
+                <div class="swiper-slide">
+                    <div class="reviewcard">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <h1>Ahmed Khan</h1>
+
+                        <p>
+                            "The pizzas were fresh, cheesy, and full of flavour.
+                            The portion sizes were generous, and everything arrived
+                            hot. Great value for money. Highly recommend!"
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- ZAINAB -->
+                <div class="swiper-slide">
+                    <div class="reviewcard">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <h1>Zainab Mansoor</h1>
+
+                        <p>
+                            "I ordered a burger and a milkshake, and both were
+                            amazing. The food tasted fresh, the restaurant was
+                            spotless, and the service was fast. A fantastic
+                            experience from start to finish."
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- ALISHA -->
+                <div class="swiper-slide">
+                    <div class="reviewcard">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <h1>Alisha Patel</h1>
+
+                        <p>
+                            "Such a great atmosphere with delicious food.
+                            The staff were friendly, and our order was ready
+                            quickly. Everything was cooked perfectly.
+                            Can't wait to come back!"
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- LEFT ARROW -->
+            <div class="swiper-button-prev"></div>
+
+            <!-- RIGHT ARROW -->
+            <div class="swiper-button-next"></div>
+
+
+            <!-- PAGINATION DOTS -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <br>
+        <hr><hr>
+    </section>
+
+
+    <!-- SWIPER JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- SWIPER INITIALIZATION -->
+    <script>
+        const reviewsSwiper = new Swiper(".reviewsSwiper", {
+
+            slidesPerView: 1,
+
+            spaceBetween: 20,
+
+            speed: 500,
+
+            grabCursor: true,
+
+            touchRatio: 1,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+
+        });
+    </script>
+
+
+    <section class="offers">
+
+    <h1>SPECIAL OFFERS</h1>
+    <p class="offers-subtitle">Big flavours. Better deals. Only at The Melted Duo.</p>
+
+    <div class="deal1">
+        <span class="deal-badge">LIMITED TIME</span>
+        <div class="deal-icon">🍔</div>
+        <h2>THE DUO DEAL</h2>
+        <p>Our juicy signature burger, crispy fries and a refreshing drink.</p>
+        <span class="save">SAVE £2</span>
+        <h3>£9.99</h3>
+        <button>ORDER NOW</button>
+    </div>
+
+    <div class="deal2">
+        <span class="deal-badge">POPULAR</span>
+        <div class="deal-icon">🍕</div>
+        <h2>PIZZA NIGHT</h2>
+        <p>Grab a large pizza and two refreshing drinks for the perfect night in.</p>
+        <span class="save">SAVE £3</span>
+        <h3>£14.99</h3>
+        <button>ORDER NOW</button>
+    </div>
+
+    <div class="deal3">
+        <span class="deal-badge">BEST VALUE</span>
+        <div class="deal-icon">🔥</div>
+        <h2>THE MELTED FEAST</h2>
+        <p>Two loaded burgers, two sides and two drinks. Perfect for sharing.</p>
+        <span class="save">SAVE £5</span>
+        <h3>£19.99</h3>
+        <button>ORDER NOW</button>
+    </div>
+
+
+    <div class="deal-week">
+        <span class="week-label">🔥 DEAL OF THE WEEK</span>
+        <h2>THE MELTED FEAST</h2>
+        <p>Two loaded burgers, two sides and two drinks — the ultimate feast to share!</p>
+        <h3>£19.99</h3>
+        <button>ORDER NOW</button>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+    
+
+<footer>
+        <div class="fclass">
+            <center>
+            <table>
+                
+
+
+                <tr>
+                    <th> 
+                        <img src="Screenshot 2026-07-29 12.15.38 PM.png">
+                    </th>
+                
+                    
+                    <th>
+                        <a href="index.html">Home</a>
+                    </th>
+
+
+                
+                    <th>
+                        <a href="about.html">About</a>
+                    </th>   
+
+
+                
+                    <th>
+                        <a href="contact.html">Contact</a>
+                    </th>
+                    <th>
+                    <p>© 2026 The Melted Duo. Amna Mansoor. All Rights Reserved.</p>
+                    </th>
+                </tr>
+                
+                
+            </table>
+            </center>
+            
+        </div>
+        
+        
+        
+    </footer>
+    
+</html>

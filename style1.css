@@ -1,0 +1,233 @@
+body{
+    background:black;
+    color: #333;
+}
+
+
+
+
+.menu nav{
+
+    padding: 30px 0px 30px 0px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    
+
+}
+.menu nav img{
+    padding-bottom:1%;
+
+}
+.menu nav a{
+    font-size: 45px;
+    font-family:Geneva;
+    font-weight: bolder;
+    color: rgb(201, 88, 23);
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.menu nav a:hover{
+    color: rgb(164, 72, 19);
+}
+
+footer{
+    padding: 0%;
+
+}
+
+
+.fclass table tr th a{
+    font-size: 35px;
+    font-family:Geneva;
+    font-weight: bolder;
+    color: rgb(201, 88, 23);
+    text-decoration: none;
+    padding: 0px 20px 0px 20px; 
+    margin-left: 70%;
+    
+
+}
+
+.fclass table tr th a:hover{
+    color: rgb(164, 72, 19);
+}
+
+
+.fclass{
+    background-color:black;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fclass table tr th img{
+    padding-top: 8%;
+}
+
+.fclass table tr th p{
+    color: white;
+    margin-left: 25%;
+    font-size: 25px;
+    font-family:Geneva;
+    
+}
+
+.fclass table tr th p:hover{
+    color: rgb(201, 88, 23);
+}
+
+
+.contactus{
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    width: 76%;
+    padding: 2%;
+    align-items: center;   
+    border-radius: 20px;
+}
+
+.contactus h1{
+    font-weight: 1000;
+    color: white;
+}
+
+.contactus p{
+    font-size: larger;
+    font-weight: 550;
+}
+.contactus .info{
+    background-color: rgb(35, 35, 35);
+}
+
+.info{
+    background-color: rgb(35, 35, 35);
+    padding: 5%;
+    width: 150%;
+    padding: 10%;
+
+}
+.form1{
+    background-color: rgb(201, 88, 23);
+    padding: -10%;
+    width: 300%;
+    margin-left: 85%;
+    height: 200%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    border-radius: 10px;
+
+}
+.form1 form p input{
+    font-family: Geneva;
+    font-size:medium;
+    font-weight:700;
+    width: 70%;
+    height: 300%;
+    border-radius: 5px;
+    padding: 1.5%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+
+    
+}
+
+.form1 form .message p input{
+    padding-bottom: 2%;
+    color: black;
+}
+.form1 .message p textarea{
+    font-family: Geneva;
+    font-size:medium;
+    font-weight:700;
+    width: 70%;
+    height: 65px;
+    border-radius: 5px;
+    padding: 1.5%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+
+}
+.form1 form button{
+    width: 35%;
+    height: 250%;
+    border-radius: 10px;
+    font-size:xx-large;
+    color: white;
+    background-color:black;
+    font-family: Geneva;
+    border-color: black;
+
+    
+}
+.form1 form button:hover {
+    background-color: white;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    border: 2px solid black;
+}
+
+.info{
+    width: 150%;
+    height: 150%;
+    background-color: white;
+}
+.info button{
+    font-size: 105%;
+    padding:2%;
+    background-color: rgb(201, 88, 23);
+    color: black;
+    font-family: Geneva;
+    font-weight: bolder;
+    width: 75%;
+    border-radius: 10px;
+    size: 200%;
+    border-style: none;
+    margin-right: 20%;
+}
+.info button :hover{
+    background-color: rgb(164, 72, 19);
+    color: white;}
+.info button img{
+    width: 60px;
+    height: 60px;
+    margin-right: 40%;
+}
+.info button table tr th{
+    text-align: left;
+    color: black;
+}
+
+.map-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.map-section h1{
+    color: rgb(201, 88, 23);
+    font-size: 350%;
+    padding-top: 3%;
+}
+.map-container{
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    margin-right: 4%;
+    padding-left: 5.5%;
+    padding-bottom: 3%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.map-container iframe{
+    width: 100%;
+    display: block;
+}

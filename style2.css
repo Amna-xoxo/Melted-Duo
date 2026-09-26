@@ -1,0 +1,715 @@
+body{
+    background:rgb(0, 0, 0);
+    color: #333;
+}
+
+
+.menu nav img{
+    padding-bottom:1%;
+
+}
+
+.menu nav{
+
+    padding: 30px 0px 30px 0px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    
+
+}
+.menu nav a{
+    font-size: 45px;
+    font-family:Geneva;
+    font-weight: bolder;
+    color: rgb(201, 88, 23);
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+    
+}
+
+
+.menu nav a:hover{
+    color: rgb(164, 72, 19);
+}
+
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+/* =========================================
+   REVIEW SECTION
+========================================= */
+
+.review-section {
+    margin: 80px auto;
+    width: 90%;
+    max-width: 1000px;
+    padding-bottom: -30%;
+}
+.review-section h1{
+    font-size:300%;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    color: white;
+
+    font-size: 52px;
+    font-weight: 800;
+
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+
+    margin: 0 0 35px;
+
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+}
+
+
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.review-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* =========================================
+   SWIPER
+========================================= */
+
+.reviewsSwiper {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    /* Space for the dots */
+    padding-bottom: 55px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+/* =========================================
+   SWIPER WRAPPER
+========================================= */
+
+.reviewsSwiper .swiper-wrapper {
+    display: flex;
+}
+
+
+/* =========================================
+   EVERY SLIDE = SAME SIZE
+========================================= */
+
+.reviewsSwiper .swiper-slide {
+    width: 100%;
+    height: 260px;
+
+    flex-shrink: 0;
+
+    box-sizing: border-box;
+
+    background-color: rgb(201, 88, 23);
+
+    border-radius: 10px;
+
+    /*
+       Extra space on the left and right
+       keeps the text away from the arrows.
+    */
+    padding: 25px 80px;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================
+   REVIEW CARD
+========================================= */
+
+.reviewsSwiper .reviewcard {
+    width: 100%;
+
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================
+   STARS
+========================================= */
+
+.reviewsSwiper .reviewcard .stars {
+    color: gold;
+
+    font-size: 36px;
+
+    line-height: 1;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   NAME
+========================================= */
+
+.reviewsSwiper .reviewcard h1 {
+    margin: 0 0 15px 0;
+
+    font-size: 30px;
+
+    line-height: 1.1;
+}
+
+
+/* =========================================
+   REVIEW TEXT
+========================================= */
+
+.reviewsSwiper .reviewcard p {
+    margin: 0;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+
+    /*
+       Keeps the text safely away from
+       the arrows.
+    */
+    max-width: 520px;
+}
+
+
+/* =========================================
+   LEFT + RIGHT ARROWS
+========================================= */
+
+.reviewsSwiper .swiper-button-prev,
+.reviewsSwiper .swiper-button-next {
+    position: absolute;
+
+    top: 130px;
+
+    width: 45px;
+    height: 45px;
+
+    margin-top: 0;
+
+    transform: translateY(-50%);
+
+    color: black;
+
+    z-index: 10;
+}
+
+
+/* =========================================
+   LEFT ARROW POSITION
+========================================= */
+
+.reviewsSwiper .swiper-button-prev {
+    left: 15px;
+}
+
+
+/* =========================================
+   RIGHT ARROW POSITION
+========================================= */
+
+.reviewsSwiper .swiper-button-next {
+    right: 15px;
+}
+
+
+/* =========================================
+   ARROW SIZE
+========================================= */
+
+.reviewsSwiper .swiper-button-prev::after,
+.reviewsSwiper .swiper-button-next::after {
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   PAGINATION
+========================================= */
+
+.reviewsSwiper .swiper-pagination {
+    bottom: 10px;
+
+    z-index: 10;
+}
+
+
+/* =========================================
+   PAGINATION DOTS
+========================================= */
+
+.reviewsSwiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+
+    opacity: 1;
+}
+
+
+/* =========================================
+   ACTIVE DOT
+========================================= */
+
+.reviewsSwiper .swiper-pagination-bullet-active {
+    transform: scale(1.2);
+    background-color: brown;
+}
+
+
+
+
+.offers {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 0px 30px 70px 30px;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+.offers p{
+    font-size: large;
+}
+
+.offers h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(201, 88, 23);
+    font-size: 350%;
+    margin-bottom: -35px;
+}
+
+.offers-subtitle {
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* DEAL CARDS */
+
+.deal1,
+.deal2,
+.deal3 {
+    position: relative;
+    width: 400px;
+    min-height: 380px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+
+    border-radius: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid rgba(255, 255, 255, 0.12);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.deal1 {
+    background-color: #f28c28;
+}
+
+.deal2 {
+    background-color: #e66b1f;
+}
+
+.deal3 {
+    background-color: #c94f17;
+}
+
+/* BADGE */
+
+.deal-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    background-color: black;
+    color: white;
+
+    padding: 6px 10px;
+    border-radius: 20px;
+
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* ICON */
+
+.deal-icon {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+/* TITLE */
+
+.deal1 h2,
+.deal2 h2,
+.deal3 h2 {
+    color: white;
+    font-size: 25px;
+    margin: 8px 0 12px;
+}
+
+/* DESCRIPTION */
+
+.deal1 p,
+.deal2 p,
+.deal3 p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+/* SAVING */
+
+.save {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* PRICE */
+
+.deal1 h3,
+.deal2 h3,
+.deal3 h3 {
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 18px;
+}
+
+/* BUTTON */
+
+.deal1 button,
+.deal2 button,
+.deal3 button {
+    background-color: black;
+    color: white;
+
+    border: 2px solid black;
+    padding: 12px 26px;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.deal1 button:hover,
+.deal2 button:hover,
+.deal3 button:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    transform: translateY(-2px);
+}
+
+/* CARD HOVER */
+
+.deal1:hover,
+.deal2:hover,
+.deal3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* DEAL OF THE WEEK */
+
+.deal-week {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 220px;
+
+    margin: 30px auto 0;
+    padding: 35px 45px;
+
+    box-sizing: border-box;
+
+    background-color: #111111;
+    border: 2px solid rgb(201, 88, 23);;
+    border-radius: 20px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deal-week:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(242, 140, 40, 0.25);
+}
+
+.deal-week span{
+    background-color: rgb(201, 88, 23);
+}
+/* LABEL */
+
+.week-label {
+    background-color: #f28c28;
+    color: black;
+
+    padding: 7px 15px;
+    border-radius: 20px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+/* TITLE */
+
+.deal-week h2 {
+    color: white;
+    font-size: 32px;
+    margin: 5px 0 10px;
+}
+
+/* DESCRIPTION */
+
+.deal-week p {
+    color: #dddddd;
+    font-size: large;
+    max-width: 650px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+/* PRICE */
+
+.deal-week h3 {
+    color: rgb(201, 88, 23);
+    font-size: 30px;
+    margin: 5px 0 18px;
+}
+
+/* BUTTON */
+
+.deal-week button {
+    background-color: rgb(201, 88, 23);
+    color: black;
+
+    border: 2px solid rgb(201, 88, 23);;
+
+    padding: 12px 28px;
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.deal-week button:hover {
+    background-color: rgb(164, 72, 19);
+    border-color: rgb(201, 88, 23);;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .review-section {
+        width: 95%;
+
+        margin: 50px auto;
+    }
+
+
+    .reviewsSwiper {
+        padding-bottom: 50px;
+    }
+
+
+    .reviewsSwiper .swiper-slide {
+        height: 300px;
+
+        padding: 25px 60px;
+    }
+
+
+    .reviewsSwiper .reviewcard .stars {
+        font-size: 30px;
+    }
+
+
+    .reviewsSwiper .reviewcard h1 {
+        font-size: 24px;
+    }
+
+
+    .reviewsSwiper .reviewcard p {
+        font-size: 16px;
+
+        line-height: 1.45;
+    }
+
+
+    .reviewsSwiper .swiper-button-prev,
+    .reviewsSwiper .swiper-button-next {
+        width: 35px;
+        height: 35px;
+
+        top: 150px;
+    }
+
+
+    .reviewsSwiper .swiper-button-prev {
+        left: 5px;
+    }
+
+
+    .reviewsSwiper .swiper-button-next {
+        right: 5px;
+    }
+
+
+    .reviewsSwiper .swiper-button-prev::after,
+    .reviewsSwiper .swiper-button-next::after {
+        font-size: 22px;
+    }
+
+
+
+
+}
+footer{
+    padding: 0%;
+}
+
+
+.fclass table tr th a{
+    font-size: 35px;
+    font-family:Geneva;
+    font-weight: bolder;
+    color: rgb(201, 88, 23);
+    text-decoration: none;
+    padding: 0px 20px 0px 20px; 
+    margin-left: 70%;
+    
+
+}
+
+.fclass table tr th a:hover{
+    color: rgb(164, 72, 19);
+}
+
+.fclass table tr th img{
+    size:120%;
+
+}
+
+.fclass{
+    background-color:black;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+    
+}
+
+.fclass table tr th p{
+    color: white;
+    margin-left: 25%;
+    font-size: 25px;
+    font-family:Geneva;
+    
+}
+.fclass table tr th p:hover{
+    color: rgb(201, 88, 23);
+}
