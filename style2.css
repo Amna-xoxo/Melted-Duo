@@ -52,14 +52,14 @@ body{
     margin: 80px auto;
     width: 90%;
     max-width: 1000px;
-    padding-bottom: -30%;
+    padding-bottom: 0;
 }
-.review-section h1{
-    font-size:300%;
+
+.review-section h1 {
+    font-size: 300%;
     color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
 
     color: white;
 
@@ -75,9 +75,6 @@ body{
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 
     position: relative;
-}
-
-
 }
 
 
@@ -220,18 +217,23 @@ body{
 .reviewsSwiper .swiper-button-next {
     position: absolute;
 
-    top: 130px;
+    top: 50%;
+    transform: translateY(-50%);
 
     width: 45px;
     height: 45px;
 
     margin-top: 0;
 
-    transform: translateY(-50%);
+    color: white;
 
-    color: black;
+    z-index: 20;
 
-    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
 }
 
 
@@ -254,14 +256,26 @@ body{
 
 
 /* =========================================
-   ARROW SIZE
+   ACTUAL ARROW SYMBOLS
 ========================================= */
 
-.reviewsSwiper .swiper-button-prev::after,
-.reviewsSwiper .swiper-button-next::after {
-    font-size: 28px;
+.reviewsSwiper .swiper-button-prev::after {
+    content: "‹";
 
+    font-size: 55px;
     font-weight: bold;
+
+    color: white;
+}
+
+
+.reviewsSwiper .swiper-button-next::after {
+    content: "›";
+
+    font-size: 55px;
+    font-weight: bold;
+
+    color: white;
 }
 
 
@@ -272,7 +286,7 @@ body{
 .reviewsSwiper .swiper-pagination {
     bottom: 10px;
 
-    z-index: 10;
+    z-index: 20;
 }
 
 
@@ -294,9 +308,9 @@ body{
 
 .reviewsSwiper .swiper-pagination-bullet-active {
     transform: scale(1.2);
+
     background-color: brown;
 }
-
 
 
 
